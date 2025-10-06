@@ -1,4 +1,10 @@
 {
   "name": "spfc_bot",
-  "packageManager": "yarn@4.6.0"
+  "packageManager": "yarn@4.6.0",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "dependencies": {
+    "puppeteer": "24.13.0"
+  }
 }
